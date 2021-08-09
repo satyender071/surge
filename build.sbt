@@ -104,6 +104,7 @@ lazy val `surge-docs` = (project in file("modules/surge-docs"))
       typesafeConfig,
       embeddedKafka,
       logback,
+      jacksonCore,
       scalatest,
       scalatestPlusMockito,
       mockitoCore,
